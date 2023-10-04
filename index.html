@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio da Alana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <link rel="stylesheet" href="styles.css">
+ <script defer src="script.js"></script>
+  </head>
+<body>
+ <!-- Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+  <h1 id="digitando">Portfólio Alana Oliveira</h1>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Sobre mim</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projetos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resume">Currículo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contato</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </nav>
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá, meu nome é Alana, tenho 25 anos e moro no interior do estado de São Paulo, Brasil.</br>
+Sou graduada em enfermagem, mas estou mudando de área.</br>
+Estou cursando Tecnólogo em Análise e Desenvolvimento de Sistemas.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="PicAbout" src="img/alana.jpeg" alt="Imagem Sobre Mim" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+        <h2>Projetos</h2>
+		
+        <div class="card">
+          <a href="https://alanaoliveirav.github.io/Cardapio-HTML-CSS/" target="_blank"><img src="img/Cardapio.PNG" alt="Projeto 1 - Cardápio"></a>
+			      <p> Projeto 1 - Cardápio de uma doceria fictícia.</p>
+        </div>
+        <div class="card">
+          <a href="https://alanaoliveirav.github.io/inspiraJaSemana3/" target="_blank"><img src="img/ODS.png" alt="Projeto 2 - ODS"></a>
+            <p>Projeto 2 - Site com os Objetivos de Desenvolvimento Sustentável (ODS).</p>
+        </div>
+      
+      
+        <div class="card">
+          <a href="https://alanaoliveirav.github.io/Site-simples/" target="_blank"><img src="img/Simples.PNG" alt="Projeto 3 - Site simples"></a>
+            <p>Projeto 3 - Site simples para praticar os conhecimentos adquiridos no curso de Javascript da Microsoft</p>
+        </div>
+        <div class="card">
+          <a href="https://alanaoliveirav.github.io/SiteExerciciosPython/" target="_blank"><img src="img/python.png" alt="Projeto 4 - Exercícios Python"></a>
+            <p> Projeto 4 - Site com resolução de exercícios em python do site <a href="https://wiki.python.org.br/EstruturaSequencial" target="_blank">PythonBrasil</p></a>
+        </div>
+		
+    </section>
+
+    <!-- Seção Currículo -->
+    <section id="resume" class="py-5">
+        <div>
+            <h2>Currículo</h2>
+            <p>Acesse o meu currículo online.</p>
+			<a href="https://alanaoliveirav.github.io/Curriculo-HTML/" target="_blank"><img id="img_resume" src="img/curriculo.png" alt="Imagem do meu currículo" class="img-fluid" width="500px" height="450px"></a>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+   <section id="contact" >
+        <div >
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através de alguma das formas disponibilizadas abaixo.</p>
+             <div class="icone">
+				<a href="https://github.com/AlanaOliveiraV" target="_blank">
+				<img src="img/github.svg" alt="Link do GitHub" width="75px" />
+				</a>
+			</div>
+			<div class="icone">
+				<a href="https://www.linkedin.com/in/alanacristinaoliveiravelozo" target="_blank">
+				<img src="img/linkedin.svg" alt="Link do Linkedin" width="75px" />
+				</a>
+			</div>
+
+     		<a href="mailto:projetoportfolio70@gmail.com" class="icone"">
+				<img src="img/email.svg" alt="Link do email" width="75px" />
+			</a>
+
+            <form
+				action="https://formsubmit.co/ajax/c05e068614cc6a9a25b55ed022e1a145"
+				method="POST"
+				data-form
+					>
+						<label for="nome" class="form-label">Nome</label>
+						<input type="text" placeholder="Escreva seu nome aqui." aria-label=".form-control-sm example" name="nome" id="nome"  class="form-control form-control-sm" required />
+						<label for="email" class="form-label">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Escreva seu e-mail aqui." aria-label=".form-control-sm example" required class="form-control form-control-sm" />
+						<label for="mensagem" class="form-label">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" required  placeholder="Escreva sua mensagem aqui." aria-label=".form-control-sm example" class="form-control form-control-sm"></textarea>
+						<button type="submit" data-button class="btn btn-primary">Enviar</button>
+			</form>
+
+            
+        </div>
+	</section>
+	<section id="techs" >
+    <div class="techs">
+            <h1 class="centralizado">Tecnologias</h1>
+            <p>Tecnologias estudadas durante o curso.</p>
+            <div class="cards-container">
+              <div class="card">
+                <img src="./img/html-logo.png" alt="Logo do HTML5">
+                <p>HTML 5</p>
+              </div>
+              
+  
+              <div class="card">
+                <img src="./img/css-logo.png"  alt="Logo do CSS3">
+                <p>CSS 3</p>
+              </div>
+             
+  
+              <div class="card">
+                <img src="./img/js-logo.png"  alt="Logo do Javascript">
+                <p>JavaScript</p>
+              </div>
+              
+  
+              <div class="card">
+                <img src="./img/python-logo.png"  alt="Logo do Python">
+                <p>Python</p>
+			</div>
+             </div>
+              
+    </div>
+    </section>
+        
+		<footer id="RodaPe">
+		<p>
+			Referências:</br>
+			<a href="https://www.youtube.com/watch?v=TLkds5BJ-vA" target="_blank"> Vídeo utilizado com fonte para realização do formulário de contato</a>
+			</br>
+			<a href="https://iconmonstr.com/" target="_blank">Site de onde foram baixados os ícones utilizados na seção contato do projeto</a>
+					
+		</p>
+			<span>
+        &copy; Alana Oliveira, 2023 - Todos os direitos reservados.
+    </span>
+    
+		</footer>
+	</body>
+    
+</html>
+
